@@ -1,5 +1,5 @@
 #
-name: Create and publish a Docker image
+name: Build and scan Docker image
 
 on:
   workflow_dispatch:
