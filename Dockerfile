@@ -5,7 +5,7 @@ FROM ${BASE_IMAGE}
 LABEL org.opencontainers.image.authors="rodolphe@quiedeville.org"
 
 # Install required dependencies
-RUN apk --no-cache add \
+RUN apk --no-cache --update add \
     python3 \
     py3-pip
 
